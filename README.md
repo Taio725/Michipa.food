@@ -1,3 +1,5 @@
+MiChiPa - Landing Page Gastronómica
+
 MiChiPa es una página de aterrizaje (Landing Page) moderna, estética y responsiva desarrollada
 para un negocio local de café de especialidad, platos artesanales y chipas tradicionales. 
 El sitio actúa como portal informativo para exhibir los pilares de la marca, los horarios de atención y facilitar el contacto con los clientes.
