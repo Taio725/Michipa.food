@@ -1,0 +1,45 @@
+/** Header **/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 70px;
+    overflow: hidden;
+    background-color: #F6E5D3;
+}
+
+.logo-menu {
+    height: 100%;
+    max-height: 80px;
+    width: auto;
+    object-fit: contain;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.menu-principal {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin: 0;
+    padding: 5px;
+}
+
+.menu-item a {
+    font-size: 20px;
+    text-decoration: none;
+    color:#21303B;
+}
+
+.menu-item {
+    list-style-type: none;
+}
+
+.menu-item a:hover {
+    color:#1B7094;
+}

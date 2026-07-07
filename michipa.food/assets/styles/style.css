@@ -1,0 +1,189 @@
+@import url('header.css');
+@import url('detalles-servicios.css');
+@import url('nosotros.css');
+@import url('footer.css');
+
+@font-face {
+    font-family: 'WixMadeforText';
+    src: url('./fonts/static/WixMadeforText-Regular.ttf') format('truetype-variations'),
+            url('./fonts/static/WixMadeforText-Regular.ttf') format('truetype');
+    font-weight: 100 900; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WixMadeforText';
+    src: url('./fonts/static/WixMadeforText-Bold.ttf') format('truetype-variations'),
+            url('./fonts/static/WixMadeforText-Bold.ttf') format('truetype');
+    font-weight: 100 900; 
+    font-style: italic;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/*Propiedades Globales*/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+}
+
+.imagen-hero {
+    display: flex;
+    height: 800px;
+    align-items: center;
+
+    position: relative;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('../img/header/header3.1.png') no-repeat center center / cover;
+}
+
+.contenedor-eslogan-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 120rem;
+    margin: 0 auto;
+    width: 90%;
+    gap: 5px;
+    
+}
+
+.eslogan-hero-parrafo {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    font-size: 40px;
+    color: #ffffff;
+    border-radius: 10px;
+    font-weight: 700; 
+    font-style: italic;
+}
+
+.eslogan-hero {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    font-size: 35px;
+    color: #ffffff;
+    border-radius: 10px;
+    font-weight: 700; 
+    font-style: italic;
+}
+
+.titulos-globales {
+    padding: 40px 0;
+}
+
+.titulo-global {
+    font-size: 50px;
+    color: #1B7094;
+    text-align: center;
+}
+
+/*///////////////////////////////////////////*/
+
+.contenedor-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-main {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+}
+
+.main-titulo {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.direccion,
+.horario {
+    width: 45%;
+}
+
+.direccion h3,
+.horario h3 {
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.direccion p,
+.horario p {
+    font-size: 1.8rem;
+    margin: .5rem 0;
+}
+
+/* ======== RESPONSIVE ======== */
+@media (max-width: 1024px) {
+    .imagen-hero {
+        height: 60%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .eslogan-hero {
+        font-size: 22px;
+        padding: 20px;
+    }
+
+    .titulo-global {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .imagen-hero {
+        height: 50%;
+    }
+
+    .contenedor-eslogan-hero {
+        justify-content: center;
+    }
+
+    .eslogan-hero {
+        font-size: 18px;
+        padding: 15px;
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .titulo-global {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .imagen-hero {
+        height: 40%;
+    }
+
+    .eslogan-hero {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .titulo-global {
+        font-size: 25px;
+    }
+}
+
