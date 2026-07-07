@@ -4,9 +4,9 @@ MiChiPa es una página de aterrizaje (Landing Page) moderna, estética y respons
 para un negocio local de café de especialidad, platos artesanales y chipas tradicionales. 
 El sitio actúa como portal informativo para exhibir los pilares de la marca, los horarios de atención y facilitar el contacto con los clientes.
 
-> 🚧 **Estado del Proyecto:** En desarrollo activo (Under Development).
+>  **Estado del Proyecto:** En desarrollo activo (Under Development).
 
-## ✨ Características Implementadas (Features)
+## Características Implementadas (Features)
 
 - **Encabezado Semántico:** Menú de navegación estructurado listo para enrutamiento interno (`Inicio`, `Nosotros`, `Menú`, `Contacto`).
 - **Sección Hero:** Portada de bienvenida con un eslogan enfocado en la experiencia del usuario y la identidad de marca.
@@ -14,7 +14,7 @@ El sitio actúa como portal informativo para exhibir los pilares de la marca, lo
 - **Bloque Informativo Central:** Sección con datos esenciales visibles como dirección física y horarios laborales semanales.
 - **Footer Corporativo de 3 Columnas:** Espacio dedicado a boletín informativo, datos de contacto directo (+595) y enlaces a redes sociales.
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **Frontend:** HTML5 semántico, CSS3 (Layout modular).
 - **Control de Versiones:** Git y GitHub.
@@ -46,4 +46,6 @@ Durante el desarrollo de la interfaz, apliqué lógica avanzada de CSS para reso
 - [ ] Creación de las páginas secundarias (`nosotros.html` y `menu.html`).
 - [ ] Configuración del enlace dinámico a la API de WhatsApp en el botón "Contáctanos".
 - [ ] Optimización SEO general y despliegue final en producción.
+
+
 
